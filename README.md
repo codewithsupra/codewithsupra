@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Frontend Developer
 ------------------
 
-’m Supratim Sarkar, a passionate software engineer with expertise in full-stack development and DevOps. With a solid foundation in JavaScript, Python, and TypeScript, I excel in building dynamic web applications using ReactJS, VueJS, and NodeJs. My experience includes optimizing Mendix's low-code platform, automating workflows with AWS Lambda, and enhancing user engagement at Udaan Society. NGO website. Armed with a M.Sc. in Software Engineering and Green IT, I thrive on tackling complex challenges and delivering impactful solutions. Explore my work on GitHub and connect with me on LinkedIn.
+I’m Supratim Sarkar, a passionate software engineer with expertise in full-stack development and DevOps. With a solid foundation in JavaScript, Python, and TypeScript, I excel in building dynamic web applications using ReactJS, VueJS, and NodeJs. My experience includes optimizing Mendix's low-code platform, automating workflows with AWS Lambda, and enhancing user engagement at Udaan Society. NGO website. Armed with a M.Sc. in Software Engineering and Green IT, I thrive on tackling complex challenges and delivering impactful solutions. Explore my work on GitHub and connect with me on LinkedIn.
 
 * 🌍  I'm based in Amsterdam
 * 🖥️  See my portfolio at [Supra's 3D Portfolio](http://portfolio-main-yrcu.onrender.com/)
