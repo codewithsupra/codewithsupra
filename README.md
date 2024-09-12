@@ -6,7 +6,7 @@ Frontend Developer
 
 ’m Supratim Sarkar, a passionate software engineer with expertise in full-stack development and DevOps. With a solid foundation in JavaScript, Python, and TypeScript, I excel in building dynamic web applications using ReactJS, VueJS, and NodeJs. My experience includes optimizing Mendix's low-code platform, automating workflows with AWS Lambda, and enhancing user engagement at Udaan Society. NGO website. Armed with a M.Sc. in Software Engineering and Green IT, I thrive on tackling complex challenges and delivering impactful solutions. Explore my work on GitHub and connect with me on LinkedIn.
 
-* 🌍  I'm based in Amsterdam
+
 * 🖥️  See my portfolio at [Supra's 3D Portfolio](http://portfolio-main-yrcu.onrender.com/)
 * ✉️  You can contact me at [supratim347@gmail.com](mailto:supratim347@gmail.com )
 * 🧠  I'm learning latest advancements in AI and machine learning, including Generative AI and its applications in creative and business processes.
@@ -24,10 +24,6 @@ Frontend Developer
 ### Socials
 
 <p align="left"> <a href="https://www.github.com/codewithsupra" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a> <a href="https://www.linkedin.com/in/supratimsarkar99" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /> </picture> </a></p>
-## My GitHub Stats
 
-<a href="http://www.github.com/codewithsupra"><img src="https://github-readme-streak-stats.herokuapp.com/?user=codewithsupra&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" alt="GitHub Streak Stats" /></a>
-
-<a href="https://github.com/codewithsupra" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsupra&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20Languages" alt="Top Languages" /></a>
 
 
