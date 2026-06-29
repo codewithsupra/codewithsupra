@@ -1,192 +1,67 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" width="30"/> &nbsp;**Hey, I'm Supratim Sarkar**
+**Supratim Sarkar** — Full Stack & AI Engineer
 
-### Full Stack & AI Engineer · AWS Certified · M.Sc VU Amsterdam
+Open source @ [tiptap](https://github.com/ueberdosis/tiptap) · [payload](https://github.com/payloadcms/payload) · [shadcn/ui](https://github.com/shadcn-ui/ui) · [valibot](https://github.com/open-circle/valibot)
 
-*I don't just write code — I ship products.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/supratimsarkar99)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://supratim-software-portfolio.vercel.app)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:supratim347@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/supratimsarkar99)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://aria-acess.vercel.app)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:supratim347@gmail.com)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## What I've Built
 
-```typescript
-const supratim = {
-  role:        "Full Stack & AI Engineer",
-  education:   "M.Sc Software Engineering & Green IT — VU Amsterdam + UvA (Joint Degree)",
-  certificate: "AWS Certified Solutions Architect – Associate (SAA-C03)",
-  currentWork: "Building AI SaaS products from 0 → live",
-  expertise:   ["Next.js", "TypeScript", "Node.js", "Yjs CRDTs", "LLM Integration", "AWS"],
-  lookingFor:  "Full Stack / AI Engineer roles — EU · India · Remote",
-  contact:     "supratim347@gmail.com",
-};
-```
+**[FounderOS](https://founder-os.insforge.site)** — AI operating system for startup founders. GPT-4o Chief of Staff with full project context, KPI tracking, competitor intel, Stripe billing.
+`Next.js` `TypeScript` `PostgreSQL` `GPT-4o` `Stripe`
 
----
+**[Aria Access](https://aria-acess.vercel.app)** — Web accessibility scanner. axe-core + GPT-4o Vision catches WCAG issues automated tools miss. URL → report in 10s.
+`Next.js` `GPT-4o Vision` `axe-core` `Puppeteer` `Clerk`
 
-## 🛠️ What I've Shipped
+**[Anchor](https://anchor-19sfa4pg2-supratims-projects-a44a3625.vercel.app)** — Offline-first notes with real-time sync. Yjs CRDTs — same conflict-free replication used by Figma and Notion.
+`Yjs` `Tiptap` `IndexedDB` `y-websocket`
 
-### 🤖 [FounderOS](https://github.com/codewithsupra/founder-os) — [Live Demo](https://founder-os.insforge.site)
-> The AI-powered operating system for startup founders. Think Notion + Linear + ChatGPT — purpose-built for founders who move fast.
-
-- **AI Chief of Staff** — GPT-4o streaming chat hydrated with full project context: tasks, KPIs, competitors, experiments, and ranked founder memories
-- **Founder Memory System** — auto-captures decisions & pivots, ranks by relevance, injects top-10 into every AI prompt
-- **Stripe Billing** — 4-tier subscription enforced server-side with HMAC-verified webhooks
-
-`Next.js 16` `TypeScript` `PostgreSQL` `GPT-4o` `OpenRouter` `Stripe` `Zustand` `Zod` `Recharts`
+**[LLM Gateway](https://github.com/codewithsupra/llm-gateway)** — Production API gateway for LLMs. Semantic cache, circuit breakers, multi-provider routing, OpenAI-compatible.
+`Node.js` `Redis` `TypeScript`
 
 ---
 
-### 📝 [Anchor](https://github.com/codewithsupra/anchor.ai) — [Live App](https://anchor-19sfa4pg2-supratims-projects-a44a3625.vercel.app)
-> Notes that never disappear. Every keystroke saved locally first via Yjs CRDTs. Syncs across devices. Conflicts resolved automatically — no "pick a version" prompt. Ever.
+## Open Source
 
-- **Offline-first** — browser is the database (IndexedDB). Works with zero network
-- **CRDT sync** — same conflict-free replication tech used by Figma and Notion
-- **Stateless relay** — y-websocket on Railway; cross-device sync with zero data loss
-
-`Next.js 16` `Yjs` `Tiptap` `y-indexeddb` `y-websocket` `Dexie.js` `Tailwind`
-
----
-
-### ♿ [Aria Access](https://github.com/codewithsupra/aria-acess.ai) — [Live Demo](https://aria-acess.vercel.app)
-> AI-powered web accessibility scanner that finds what automated tools miss. Dual-engine: axe-core rules + GPT-4o Vision. Scan to report in ~10 seconds.
-
-- **96% of top websites have WCAG failures** — axe-core catches ~30–40%, GPT-4o Vision catches the rest
-- **Actionable fix suggestions** — not just "this is broken", but here's the exact code fix
-- **Auth-gated deep scans** via Clerk + persistent history via Neon + Drizzle ORM
-
-`Next.js` `TypeScript` `GPT-4o Vision` `axe-core` `Puppeteer` `Clerk` `Neon` `Drizzle`
-
----
-
-### 🧠 [CodeMentor AI](https://github.com/codewithsupra/CodeFriendAi) — [Live](https://codefriendai.netlify.app/)
-> AI dev suite that generates production-grade apps from natural language — with real-time collaborative preview and a web-based IDE.
-
-`Next.js` `TypeScript` `Gemini AI` `Convex` `Clerk` `CodeSandbox API`
-
----
-
-### 📊 [PPTGenAI](https://github.com/codewithsupra/PPTGenAI) — [Live](https://pptgenai.vercel.app) · Stripe Payments
-> GenAI SaaS that transforms plain text into exportable presentation decks with version control and CDN-optimised asset delivery.
-
-`Next.js` `Genkit AI` `Firebase` `Stripe` `ImageKit` `Tailwind`
-
----
-
-## 🌍 Open Source Contributions
-
-Merged PRs in production codebases used by millions of developers:
-
-| Project | Stars | PR | What I fixed |
-|---|---|---|---|
-| **[tiptap](https://github.com/ueberdosis/tiptap)** | 29k | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) ✅ **Merged** | Fixed link extension coercing `undefined` HTMLAttributes to `null`, silencing spurious "No value supplied for attribute class" warnings |
-| **[valibot](https://github.com/open-circle/valibot)** | 7k | [#1524](https://github.com/open-circle/valibot/pull/1524) 🔄 Open | Fixed `z.partial(Schema)` function form being mangled to `v.partial(v)` in the zod-to-valibot codemod; added missing `z.brand()` transform |
-| **[payload](https://github.com/payloadcms/payload)** | 24k | [#17135](https://github.com/payloadcms/payload/pull/17135) 🔄 Open | Fixed concurrent login race condition where parallel requests could overwrite each other's sessions |
-| **[shadcn/ui](https://github.com/shadcn-ui/ui)** | 85k | [#11040](https://github.com/shadcn-ui/ui/pull/11040) 🔄 Open | Fixed Tailwind CSS plugin not recognising boolean `data-selected` attributes from Base UI components |
-
----
-
-## 💼 Experience
-
-| Where | What | Impact |
+| Repo | PR | Status |
 |---|---|---|
-| **Mendix** (Rotterdam) | Software Engineering Intern | React features for **10,000+ enterprise users** · Refactored **15,000+ lines** JS→TS · **85% test coverage** · WCAG 2.1 |
-| **VU Amsterdam** | Teaching Assistant | Mentored **50+ Master's students** on gRPC, AWS SQS & distributed systems |
-| **UDAAN Society** | Web Developer (Volunteer) | Volunteer management system cutting coordination effort by **40%** |
+| tiptap (29k ⭐) | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) — fix link extension HTMLAttributes coercion | ✅ Merged |
+| payload (24k ⭐) | [#17135](https://github.com/payloadcms/payload/pull/17135) — fix concurrent login session overwrite | 🔄 Open |
+| shadcn/ui (85k ⭐) | [#11040](https://github.com/shadcn-ui/ui/pull/11040) — fix Tailwind boolean data-attribute support | 🔄 Open |
+| valibot (7k ⭐) | [#1524](https://github.com/open-circle/valibot/pull/1524) — fix z.partial() + add z.brand() to codemod | 🔄 Open |
 
 ---
 
-## 🧰 Tech Stack
-
-**Languages**
+## Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Golang](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-
-**Backend**
-
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-
-**Databases**
-
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_SAA-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-**AI & LLMs**
-
-![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white)
-![LLM Integration](https://img.shields.io/badge/LLM_Integration-412991?style=flat-square&logo=openai&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 
 ---
 
-## 🏆 Certification
+## Experience
 
-<a href="https://www.credly.com/badges/0898824a-f17f-438a-bfce-d0b1fd7e6815/public_url" target="_blank">
-  <img src="https://img.shields.io/badge/AWS_Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-</a>
+**Mendix** (Rotterdam) · Software Engineering Intern — React features for 10k+ enterprise users, 15k+ lines JS→TS, 85% test coverage
 
-*Issued November 2025 · SAA-C03 · [Verify on Credly ↗](https://www.credly.com/badges/0898824a-f17f-438a-bfce-d0b1fd7e6815/public_url)*
+**VU Amsterdam** · Teaching Assistant — distributed systems, gRPC, AWS SQS for 50+ Master's students
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=codewithsupra&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithsupra&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=codewithsupra&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 🎓 Education
-
-**M.Sc Software Engineering & Green IT** · VU Amsterdam + University of Amsterdam *(Joint Degree)* · 2021–2024
-
-**B.Tech Computer Science & Engineering** · Vellore Institute of Technology (VIT) · GPA: 8.41/10 · 2017–2021
+M.Sc Software Engineering · VU Amsterdam + UvA · AWS Solutions Architect Associate · [Verify](https://www.credly.com/badges/0898824a-f17f-438a-bfce-d0b1fd7e6815/public_url)
 
 ---
 
 <div align="center">
-
-*Open to Full Stack / AI Engineer roles — EU · India · Remote*
-
-**📩 supratim347@gmail.com**
-
+Open to Full Stack / AI Engineer roles — EU · India · Remote · supratim347@gmail.com
 </div>
