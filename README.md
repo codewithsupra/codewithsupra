@@ -32,7 +32,7 @@ const supratim = {
 
 ## 🛠️ What I've Shipped
 
-### 🤖 [FounderOS](https://github.com/codewithsupra/founder-os) — [Live Demo](https://v32fvcce.insforge.site)
+### 🤖 [FounderOS](https://github.com/codewithsupra/founder-os) — [Live Demo](https://founder-os.insforge.site)
 > The AI-powered operating system for startup founders. Think Notion + Linear + ChatGPT — purpose-built for founders who move fast.
 
 - **AI Chief of Staff** — GPT-4o streaming chat hydrated with full project context: tasks, KPIs, competitors, experiments, and ranked founder memories
@@ -54,7 +54,7 @@ const supratim = {
 
 ---
 
-### ♿ [Aria Access](https://github.com/codewithsupra/aria-acess.ai) — [Live Demo](https://aria-access.vercel.app)
+### ♿ [Aria Access](https://github.com/codewithsupra/aria-acess.ai) — [Live Demo](https://aria-acess.vercel.app)
 > AI-powered web accessibility scanner that finds what automated tools miss. Dual-engine: axe-core rules + GPT-4o Vision. Scan to report in ~10 seconds.
 
 - **96% of top websites have WCAG failures** — axe-core catches ~30–40%, GPT-4o Vision catches the rest
