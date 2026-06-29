@@ -79,6 +79,19 @@ const supratim = {
 
 ---
 
+## 🌍 Open Source Contributions
+
+Merged PRs in production codebases used by millions of developers:
+
+| Project | Stars | PR | What I fixed |
+|---|---|---|---|
+| **[tiptap](https://github.com/ueberdosis/tiptap)** | 29k | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) ✅ **Merged** | Fixed link extension coercing `undefined` HTMLAttributes to `null`, silencing spurious "No value supplied for attribute class" warnings |
+| **[valibot](https://github.com/open-circle/valibot)** | 7k | [#1524](https://github.com/open-circle/valibot/pull/1524) 🔄 Open | Fixed `z.partial(Schema)` function form being mangled to `v.partial(v)` in the zod-to-valibot codemod; added missing `z.brand()` transform |
+| **[payload](https://github.com/payloadcms/payload)** | 24k | [#17135](https://github.com/payloadcms/payload/pull/17135) 🔄 Open | Fixed concurrent login race condition where parallel requests could overwrite each other's sessions |
+| **[shadcn/ui](https://github.com/shadcn-ui/ui)** | 85k | [#11040](https://github.com/shadcn-ui/ui/pull/11040) 🔄 Open | Fixed Tailwind CSS plugin not recognising boolean `data-selected` attributes from Base UI components |
+
+---
+
 ## 💼 Experience
 
 | Where | What | Impact |
