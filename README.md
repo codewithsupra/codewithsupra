@@ -1,11 +1,11 @@
 <div align="center">
 
-**Supratim Sarkar** — Full Stack & AI Engineer
+**Supratim Sarkar** — Backend & Full-Stack Engineer
 
-Contributer at  @ [tiptap](https://github.com/ueberdosis/tiptap) 
+Open-source contributor at [tiptap](https://github.com/ueberdosis/tiptap) (37k★) · AWS Certified Solutions Architect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/supratimsarkar99)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://aria-acess.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://supratim-software-portfolio.vercel.app)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:supratim347@gmail.com)
 
 </div>
@@ -14,17 +14,14 @@ Contributer at  @ [tiptap](https://github.com/ueberdosis/tiptap)
 
 ## What I've Built
 
-**[FounderOS](https://founder-os.insforge.site)** — AI operating system for startup founders. GPT-4o Chief of Staff with full project context, KPI tracking, competitor intel, Stripe billing.
-`Next.js` `TypeScript` `PostgreSQL` `GPT-4o` `Stripe`
+**[Durable Agent Engine](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/)** — Fault-tolerant LLM agent orchestration on raw Postgres. `SELECT ... FOR UPDATE SKIP LOCKED` durable queue, idempotent DAG execution, crash recovery via lock-TTL reaper, cross-process pub/sub on `LISTEN/NOTIFY`. No Redis, no managed queue. Proven with a chaos test that SIGKILLs workers mid-run.
+`Node.js` `PostgreSQL` `WebSocket` `Docker` — [GitHub](https://github.com/codewithsupra/durable-agent-engine)
 
-**[Aria Access](https://aria-acess.vercel.app)** — Web accessibility scanner. axe-core + GPT-4o Vision catches WCAG issues automated tools miss. URL → report in 10s.
-`Next.js` `GPT-4o Vision` `axe-core` `Puppeteer` `Clerk`
+**[FounderOS](https://founder-os.insforge.site)** — Multi-tenant backend for a founder workspace app. Streaming AI pipeline via `ReadableStream.tee()`, HMAC-verified Stripe webhooks, Postgres row-level security with an isolated admin service-role client.
+`Next.js` `TypeScript` `PostgreSQL (RLS)` `Stripe` `GPT-4o` — [GitHub](https://github.com/codewithsupra/founder-os)
 
-**[Anchor](https://anchor-19sfa4pg2-supratims-projects-a44a3625.vercel.app)** — Offline-first notes with real-time sync. Yjs CRDTs — same conflict-free replication used by Figma and Notion.
-`Yjs` `Tiptap` `IndexedDB` `y-websocket`
-
-**[LLM Gateway](https://github.com/codewithsupra/llm-gateway)** — Production API gateway for LLMs. Semantic cache, circuit breakers, multi-provider routing, OpenAI-compatible.
-`Node.js` `Redis` `TypeScript`
+**[Anchor](https://anchor-ai-indol.vercel.app)** — Offline-first notes with conflict-free multi-device sync. Every keystroke persisted to IndexedDB as a Yjs CRDT operation before any network call — the same replication strategy behind Figma and Notion.
+`Yjs (CRDTs)` `Tiptap/ProseMirror` `IndexedDB` `y-webrtc` `y-websocket` — [GitHub](https://github.com/codewithsupra/anchor.ai)
 
 ---
 
@@ -32,36 +29,17 @@ Contributer at  @ [tiptap](https://github.com/ueberdosis/tiptap)
 
 | Repo | PR | Status |
 |---|---|---|
-| tiptap (29k ⭐) | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) — fix link extension HTMLAttributes coercion | ✅ Merged |
-| payload (24k ⭐) | [#17135](https://github.com/payloadcms/payload/pull/17135) — fix concurrent login session overwrite | 🔄 Open |
-| shadcn/ui (85k ⭐) | [#11040](https://github.com/shadcn-ui/ui/pull/11040) — fix Tailwind boolean data-attribute support | 🔄 Open |
-| valibot (7k ⭐) | [#1524](https://github.com/open-circle/valibot/pull/1524) — fix z.partial() + add z.brand() to codemod | 🔄 Open |
+| [tiptap](https://github.com/ueberdosis/tiptap) (37k★) | [#7976](https://github.com/ueberdosis/tiptap/pull/7976) — fix `character-count` `autoTrim` boundary logic | ✅ Merged |
+| [tiptap](https://github.com/ueberdosis/tiptap) (37k★) | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) — fix Link extension `HTMLAttributes` coercion | ✅ Merged |
+| [infisical](https://github.com/Infisical/infisical) (28k★) | [#7028](https://github.com/Infisical/infisical/pull/7028) — fix unreachable admin signup button (flex/scroll clipping) | 🔄 Open |
 
 ---
 
 ## Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_SAA-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-
----
-
-## Experience
-
-**Mendix** (Rotterdam) · Software Engineering Intern — React features for 10k+ enterprise users, 15k+ lines JS→TS, 85% test coverage
-
-**VU Amsterdam** · Teaching Assistant — distributed systems, gRPC, AWS SQS for 50+ Master's students
-
-M.Sc Software Engineering · VU Amsterdam + UvA · AWS Solutions Architect Associate · [Verify](https://www.credly.com/badges/0898824a-f17f-438a-bfce-d0b1fd7e6815/public_url)
-
----
-
-<div align="center">
-Open to Full Stack / AI Engineer roles — EU · India · Remote · supratim347@gmail.com
-</div>
+![AWS](https://img.shields.io/badge/AWS_SAA--C03-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
