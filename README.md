@@ -2,7 +2,7 @@
 
 **Supratim Sarkar** — Full Stack & AI Engineer
 
-Open source @ [tiptap](https://github.com/ueberdosis/tiptap) · [payload](https://github.com/payloadcms/payload) · [shadcn/ui](https://github.com/shadcn-ui/ui) · [valibot](https://github.com/open-circle/valibot)
+Contributer at  @ [tiptap](https://github.com/ueberdosis/tiptap) 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/supratimsarkar99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://aria-acess.vercel.app)
