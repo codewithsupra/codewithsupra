@@ -30,8 +30,7 @@ Open-source contributor to [tiptap](https://github.com/ueberdosis/tiptap) (37k�
 | Repo | PR | Status |
 |---|---|---|
 | [tiptap](https://github.com/ueberdosis/tiptap) (37k★) | [#7976](https://github.com/ueberdosis/tiptap/pull/7976) — fix `character-count` `autoTrim` boundary logic | ✅ Merged |
-| [tiptap](https://github.com/ueberdosis/tiptap) (37k★) | [#7977](https://github.com/ueberdosis/tiptap/pull/7977) — fix Link extension `HTMLAttributes` coercion | ✅ Merged |
-| [infisical](https://github.com/Infisical/infisical) (28k★) | [#7028](https://github.com/Infisical/infisical/pull/7028) — fix unreachable admin signup button (flex/scroll clipping) | 🔄 Open |
+
 
 ---
 
