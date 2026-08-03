@@ -35,7 +35,7 @@ No Redis, no managed queue — just Postgres, claiming and reclaiming work so no
 
 **[Anchor](https://anchor-ai-indol.vercel.app)** — Notes that never lose a keystroke, on any number of devices, even offline.
 Every edit is saved locally first and merged automatically when devices reconnect — the same conflict-free approach behind Figma and Notion.
-`Yjs (CRDTs)` `IndexedDB` `Tiptap/ProseMirror` `y-webrtc`
+`Yjs (CRDTs)` `IndexedDB (y-indexeddb)` `Tiptap/ProseMirror` `y-websocket`
 → [live](https://anchor-ai-indol.vercel.app) · [source](https://github.com/codewithsupra/anchor.ai)
 
 **[PantryChef](https://pantry-chef-7s80.onrender.com)** — Turns what's already in your kitchen into meals you can cook tonight.
