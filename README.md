@@ -1,44 +1,74 @@
 <div align="center">
 
-**Supratim Sarkar** — Backend & Full-Stack Engineer
+# Supratim Sarkar
 
-Open-source contributor to [tiptap](https://github.com/ueberdosis/tiptap) (37k★) · AWS Certified Solutions Architect
+I build the parts of a product most demos skip — crash recovery, exactly-once
+scheduling, conflict-free sync — and ship them live, alone, end to end.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/supratimsarkar99)
+**M.Sc. Software Engineering** · VU Amsterdam & University of Amsterdam, 2025 &nbsp;·&nbsp;
+**AWS Certified Solutions Architect – Associate** &nbsp;·&nbsp;
+Backend at **Mendix (Siemens)**, 2023
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/supratimsarkar99)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://supratim-software-portfolio.vercel.app)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:supratim347@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:supratim347@gmail.com)
 
 </div>
 
----
+<br>
 
-## What I've Built
+## Six live products, one engineer
 
-**[Durable Agent Engine](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/)** — Fault-tolerant LLM agent orchestration on raw Postgres. `SELECT ... FOR UPDATE SKIP LOCKED` durable queue, idempotent DAG execution, crash recovery via lock-TTL reaper, cross-process pub/sub on `LISTEN/NOTIFY`. No Redis, no managed queue. Proven with a chaos test that SIGKILLs workers mid-run.
-`Node.js` `PostgreSQL` `WebSocket` `Docker` — [GitHub](https://github.com/codewithsupra/durable-agent-engine)
+Every link below is real and checked before this line was written. No dead demos, no placeholder screenshots.
 
-**[FounderOS](https://founder-os.insforge.site)** — Multi-tenant backend for a founder workspace app. Streaming AI pipeline via `ReadableStream.tee()`, HMAC-verified Stripe webhooks, Postgres row-level security with an isolated admin service-role client.
-`Next.js` `TypeScript` `PostgreSQL (RLS)` `Stripe` `GPT-4o` — [GitHub](https://github.com/codewithsupra/founder-os)
+<br>
 
-**[Anchor](https://anchor-ai-indol.vercel.app)** — Offline-first notes with conflict-free multi-device sync. Every keystroke persisted to IndexedDB as a Yjs CRDT operation before any network call — the same replication strategy behind Figma and Notion.
-`Yjs (CRDTs)` `Tiptap/ProseMirror` `IndexedDB` `y-webrtc` `y-websocket` — [GitHub](https://github.com/codewithsupra/anchor.ai)
+**[Pulse](https://pulse-wy6e.onrender.com)** — Uptime monitoring that catches an outage before your customers do.
+Watches sites and APIs around the clock; the hard part is doing it across many servers at once without ever firing a duplicate alert.
+`Node.js` `Express` `MongoDB` `Socket.io` `worker_threads` `Docker`
+→ [live](https://pulse-wy6e.onrender.com) · [source](https://github.com/codewithsupra/pulse)
 
----
+**[Durable Agent Engine](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/)** — An LLM agent runner that survives being killed mid-task.
+No Redis, no managed queue — just Postgres, claiming and reclaiming work so nothing is silently lost. Proven with a chaos test that `kill -9`s workers on purpose.
+`Node.js` `PostgreSQL` `WebSocket` `Docker`
+→ [live](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/) · [source](https://github.com/codewithsupra/durable-agent-engine)
 
-## Open Source
+**[Anchor](https://anchor-ai-indol.vercel.app)** — Notes that never lose a keystroke, on any number of devices, even offline.
+Every edit is saved locally first and merged automatically when devices reconnect — the same conflict-free approach behind Figma and Notion.
+`Yjs (CRDTs)` `IndexedDB` `Tiptap/ProseMirror` `y-webrtc`
+→ [live](https://anchor-ai-indol.vercel.app) · [source](https://github.com/codewithsupra/anchor.ai)
 
-| Repo | PR | Status |
+**[PantryChef](https://pantry-chef-7s80.onrender.com)** — Turns what's already in your kitchen into meals you can cook tonight.
+Tracks your pantry, shows what you can make right now, and explains each AI-assisted step before it happens instead of after.
+`React Router v7` `Prisma` `PostgreSQL` `TypeScript`
+→ [live](https://pantry-chef-7s80.onrender.com) · [source](https://github.com/codewithsupra/pantry-chef)
+
+**[OSS Finder](https://oss-finder-phi.vercel.app)** — Helps first-time contributors find a pull request that will actually get merged.
+Ranks GitHub projects by how likely an outsider's first PR is to succeed, so beginners stop wasting days on repos that never respond.
+`React 19` `TypeScript` `Redux Toolkit` `Clerk`
+→ [live](https://oss-finder-phi.vercel.app) · [source](https://github.com/codewithsupra/oss-finder)
+
+<br>
+
+## Open source
+
+| Project | Contribution | Status |
 |---|---|---|
-| [tiptap](https://github.com/ueberdosis/tiptap) (37k★) | [#7976](https://github.com/ueberdosis/tiptap/pull/7976) — fix `character-count` `autoTrim` boundary logic | ✅ Merged |
+| [tiptap](https://github.com/ueberdosis/tiptap) (37K★, 15.4M weekly downloads) | Fixed a crash open for seven months — the Link extension crashed instead of erroring gracefully when configured with an undefined `class` attribute | [Merged](https://github.com/ueberdosis/tiptap/pull/7977) |
+| [tiptap](https://github.com/ueberdosis/tiptap) | Fixed a bug silently stripping bold/italic from nested lists, traced to a hardcoded parser value | [Merged](https://github.com/ueberdosis/tiptap/pull/7998) |
 
-
----
+<br>
 
 ## Stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_SAA--C03-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+**Frontend** — React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS
+**Backend** — Node.js, Express, PostgreSQL, MongoDB, GraphQL, WebSockets
+**Infra** — Docker, GitHub Actions, AWS, Render, Fly.io, Vercel
+
+<br>
+
+<div align="center">
+
+Based in Bengaluru. Open to backend, full-stack, and founding engineer roles.
+
+</div>
