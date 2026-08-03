@@ -40,7 +40,7 @@ Every edit is saved locally first and merged automatically when devices reconnec
 
 **[PantryChef](https://pantry-chef-7s80.onrender.com)** — Turns what's already in your kitchen into meals you can cook tonight.
 Tracks your pantry, shows what you can make right now, and explains each AI-assisted step before it happens instead of after.
-`React Router v7` `Prisma` `PostgreSQL` `TypeScript`
+`React Router v8` `Prisma` `PostgreSQL` `TypeScript`
 → [live](https://pantry-chef-7s80.onrender.com) · [source](https://github.com/codewithsupra/pantry-chef)
 
 **[OSS Finder](https://oss-finder-phi.vercel.app)** — Helps first-time contributors find a pull request that will actually get merged.
