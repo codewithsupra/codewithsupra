@@ -38,10 +38,15 @@ Every edit is saved locally first and merged automatically when devices reconnec
 `Yjs (CRDTs)` `IndexedDB (y-indexeddb)` `Tiptap/ProseMirror` `y-websocket`
 → [live](https://anchor-ai-indol.vercel.app) · [source](https://github.com/codewithsupra/anchor.ai)
 
-**[PantryChef](https://pantry-chef-7s80.onrender.com)** — Turns what's already in your kitchen into meals you can cook tonight.
+**[Aria](https://aria-acess.vercel.app)** — A web accessibility scanner that catches what automated tools miss.
+Runs axe-core and then GPT-4o Vision over the page to surface the WCAG issues rule-based checkers can't see. Paste a URL, get a report.
+`TypeScript` `axe-core` `GPT-4o Vision`
+→ [live](https://aria-acess.vercel.app) · [source](https://github.com/codewithsupra/aria-acess.ai)
+
+**[PantryChef](https://pantry-chef-63808735-68ed-4572-ad6e-8395ee50d819.fly.dev)** — Turns what's already in your kitchen into meals you can cook tonight.
 Tracks your pantry, shows what you can make right now, and explains each AI-assisted step before it happens instead of after.
 `React Router v8` `Prisma` `PostgreSQL` `TypeScript`
-→ [live](https://pantry-chef-7s80.onrender.com) · [source](https://github.com/codewithsupra/pantry-chef)
+→ [live](https://pantry-chef-63808735-68ed-4572-ad6e-8395ee50d819.fly.dev) · [source](https://github.com/codewithsupra/pantry-chef)
 
 **[OSS Finder](https://oss-finder-phi.vercel.app)** — Helps first-time contributors find a pull request that will actually get merged.
 Ranks GitHub projects by how likely an outsider's first PR is to succeed, so beginners stop wasting days on repos that never respond.
@@ -56,6 +61,9 @@ Ranks GitHub projects by how likely an outsider's first PR is to succeed, so beg
 |---|---|---|
 | [tiptap](https://github.com/ueberdosis/tiptap) (37K★, 15.4M weekly downloads) | Fixed a crash open for seven months — the Link extension crashed instead of erroring gracefully when configured with an undefined `class` attribute | [Merged](https://github.com/ueberdosis/tiptap/pull/7977) |
 | [tiptap](https://github.com/ueberdosis/tiptap) | Fixed a bug silently stripping bold/italic from nested lists, traced to a hardcoded parser value | [Merged](https://github.com/ueberdosis/tiptap/pull/7998) |
+| [EaseMotion-css](https://github.com/SAPTARSHI-coder/EaseMotion-css) | Added a skeleton loader with a shimmer sweep | [Merged](https://github.com/SAPTARSHI-coder/EaseMotion-css/pull/36319) |
+
+Also in review: fixes open against [tiptap](https://github.com/ueberdosis/tiptap/pulls?q=is%3Apr+author%3Acodewithsupra), [shadcn/ui](https://github.com/shadcn-ui/ui/pull/11041), [Payload](https://github.com/payloadcms/payload/pull/17135), [Valibot](https://github.com/open-circle/valibot/pull/1524), [Plane](https://github.com/makeplane/plane/pull/9326) and [Infisical](https://github.com/Infisical/infisical/pull/7028).
 
 <br>
 
@@ -63,7 +71,7 @@ Ranks GitHub projects by how likely an outsider's first PR is to succeed, so beg
 
 **Frontend** — React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS
 **Backend** — Node.js, Express, PostgreSQL, MongoDB, GraphQL, WebSockets
-**Infra** — Docker, GitHub Actions, AWS, Render, Fly.io, Vercel
+**Infra** — Docker, GitHub Actions, AWS, Render, Fly.io, InsForge, Vercel
 
 <br>
 
