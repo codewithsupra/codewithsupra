@@ -35,17 +35,27 @@ model in CI, not just unit tests of the regex.
 
 <br>
 
+## Sponsorbound
+
+**[Sponsorbound](https://h1bound.vercel.app)** helps international students find jobs in the UK, the Netherlands and Ireland at employers on the official visa-sponsor registers: three government datasets (UK Home Office, Dutch IND, Irish permits), normalised into one employer table and matched to jobs pulled daily from public job-board APIs. The part I care about is what it refuses to claim. Being on a register is not a promise to sponsor a particular job, so every job-to-employer link carries a confidence and only confirmed ones say "Licensed sponsor"; the rest say "Possible sponsor". I measured that against a hand-labeled evaluation set with a held-out split, and the evaluation is how I found (and fixed) a matcher that read "we can't offer visa sponsorship" as an offer. Gmail sending needs your approval for every email and can't double-send; CVs, chats and tokens are AES-256-GCM encrypted. Early, no users yet; the evaluation, incident log and runbook are in the repo.
+
+`Next.js 16` `TypeScript` `Postgres RLS` `AI SDK` `Gmail API` `Vitest`
+
+→ [live](https://h1bound.vercel.app) · [source](https://github.com/codewithsupra/h1bound) · [how it's measured](https://github.com/codewithsupra/h1bound/blob/main/docs/EVAL.md)
+
+<br>
+
 ## Infrastructure for AI agents
 
 Most people are building agents. I've been building what the agents run *on* — the boring,
 load-bearing parts: what happens when a worker dies mid-task, how you watch one from the
-outside, what it actually costs. Every link below is live; I checked each one before writing
-this sentence.
+outside, what it actually costs. Demos run on free hosting, so the first load can take a minute
+while they wake up.
 
-**[Durable Agent Engine](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/)** — An LLM agent runner that survives being killed mid-task.
+**[Durable Agent Engine](https://github.com/codewithsupra/durable-agent-engine)** — An LLM agent runner that survives being killed mid-task.
 No Redis, no managed queue — Postgres `SKIP LOCKED` claims and reclaims work so nothing is silently lost. Proven with a chaos test that `kill -9`s workers on purpose, mid-run.
 `Node.js` `PostgreSQL` `WebSocket` `Docker`
-→ [live](https://durable-agent-engine-b034212e-e938-4496-b3f0-50045a25b6f9.fly.dev/) · [source](https://github.com/codewithsupra/durable-agent-engine)
+→ [source](https://github.com/codewithsupra/durable-agent-engine) (demo offline)
 
 **[Terrain](https://terrain-3oqc.onrender.com)** — How much does it actually cost an agent to work in your codebase? Terrain finds the static-analysis issues already sitting in a repo, hands a sample to a real coding agent one at a time in isolated git worktrees, verifies every fix mechanically, and reports the dollar/token/hour cost of fixing the rest — a number instead of an opinion.
 `TypeScript` `Git worktrees` `Static analysis`
@@ -66,10 +76,12 @@ No Redis, no managed queue — Postgres `SKIP LOCKED` claims and reclaims work s
 | Project | What it does | Stack |
 |---|---|---|
 | **[Verdict](https://verdict-pi-peach.vercel.app)** | Tells you whether a prompt change really made your LLM agent worse, or whether you're looking at sampling noise — paired two-level bootstrap over cases, a measured noise floor, no verdict without enough power | `TypeScript` `PostgreSQL` `Vitest` |
-| **[PantryChef](https://pantry-chef-63808735-68ed-4572-ad6e-8395ee50d819.fly.dev)** | Tracks a kitchen's pantry, ranks saved recipes by what's actually on hand, and hands the busywork to a tool-calling agent with a real fallback chain across three free-tier models | `React Router v8` `Prisma` `Postgres` |
+| **[PantryChef](https://github.com/codewithsupra/pantry-chef)** (demo offline) | Tracks a kitchen's pantry, ranks saved recipes by what's actually on hand, and hands the busywork to a tool-calling agent with a real fallback chain across three free-tier models | `React Router v8` `Prisma` `Postgres` |
 | **[Anchor](https://anchor-ai-indol.vercel.app)** | Notes that never lose a keystroke on any device, even offline — every edit saved locally first, merged automatically on reconnect | `Yjs (CRDTs)` `IndexedDB` `ProseMirror` |
 | **[Aria](https://aria-acess.vercel.app)** | WCAG accessibility auditor — pairs `axe-core` with a vision model on the rendered page to catch the contrast and layout failures rules alone miss | `Next.js` `Drizzle ORM` `Puppeteer` |
 | **[OSS Finder](https://oss-finder-phi.vercel.app)** | Ranks GitHub projects by how likely a first-time contributor's PR is to actually get merged | `React 19` `Redux Toolkit` `Clerk` |
+| **[Tessera](https://tessera-notes.vercel.app)** | A local-first, multiplayer notes workspace: Obsidian's speed and data ownership with Notion's live collaboration. Every page is a Yjs CRDT stored on your device first | `Yjs (CRDTs)` `IndexedDB` |
+| **[Octave](https://octave-roan.vercel.app/demo)** | Run a fleet of coding agents in parallel without them colliding: a conflict radar over live worktrees, a risk-ranked review queue, and a tournament that runs your tests on every agent's result. The demo runs on simulated agents | `TypeScript` `Git worktrees` |
 
 <br>
 
@@ -77,7 +89,7 @@ No Redis, no managed queue — Postgres `SKIP LOCKED` claims and reclaims work s
 
 | Project | Contribution | Status |
 |---|---|---|
-| [tiptap](https://github.com/ueberdosis/tiptap) (38K★, 16.8M weekly downloads) | Fixed a crash open for seven months — the Link extension crashed instead of erroring gracefully when configured with an undefined `class` attribute | [Merged](https://github.com/ueberdosis/tiptap/pull/7977) |
+| [tiptap](https://github.com/ueberdosis/tiptap) (39K★, ~33M weekly downloads of `@tiptap/core`) | Fixed a crash open for seven months — the Link extension crashed instead of erroring gracefully when configured with an undefined `class` attribute | [Merged](https://github.com/ueberdosis/tiptap/pull/7977) |
 | [tiptap](https://github.com/ueberdosis/tiptap) | Fixed a bug silently stripping bold/italic from nested lists, traced to a hardcoded parser value | [Merged](https://github.com/ueberdosis/tiptap/pull/7998) |
 
 <br>
