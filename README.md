@@ -71,19 +71,7 @@ No Redis, no managed queue — Postgres `SKIP LOCKED` claims and reclaims work s
 
 <br>
 
-## More live systems
 
-| Project | What it does | Stack |
-|---|---|---|
-| **[Verdict](https://verdict-pi-peach.vercel.app)** | Tells you whether a prompt change really made your LLM agent worse, or whether you're looking at sampling noise — paired two-level bootstrap over cases, a measured noise floor, no verdict without enough power | `TypeScript` `PostgreSQL` `Vitest` |
-| **[PantryChef](https://github.com/codewithsupra/pantry-chef)** (demo offline) | Tracks a kitchen's pantry, ranks saved recipes by what's actually on hand, and hands the busywork to a tool-calling agent with a real fallback chain across three free-tier models | `React Router v8` `Prisma` `Postgres` |
-| **[Anchor](https://anchor-ai-indol.vercel.app)** | Notes that never lose a keystroke on any device, even offline — every edit saved locally first, merged automatically on reconnect | `Yjs (CRDTs)` `IndexedDB` `ProseMirror` |
-| **[Aria](https://aria-acess.vercel.app)** | WCAG accessibility auditor — pairs `axe-core` with a vision model on the rendered page to catch the contrast and layout failures rules alone miss | `Next.js` `Drizzle ORM` `Puppeteer` |
-| **[OSS Finder](https://oss-finder-phi.vercel.app)** | Ranks GitHub projects by how likely a first-time contributor's PR is to actually get merged | `React 19` `Redux Toolkit` `Clerk` |
-| **[Tessera](https://tessera-notes.vercel.app)** | A local-first, multiplayer notes workspace: Obsidian's speed and data ownership with Notion's live collaboration. Every page is a Yjs CRDT stored on your device first | `Yjs (CRDTs)` `IndexedDB` |
-| **[Octave](https://octave-roan.vercel.app/demo)** | Run a fleet of coding agents in parallel without them colliding: a conflict radar over live worktrees, a risk-ranked review queue, and a tournament that runs your tests on every agent's result. The demo runs on simulated agents | `TypeScript` `Git worktrees` |
-
-<br>
 
 ## Open source
 
