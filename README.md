@@ -52,18 +52,11 @@ load-bearing parts: what happens when a worker dies mid-task, how you watch one 
 outside, what it actually costs. Demos run on free hosting, so the first load can take a minute
 while they wake up.
 
-**[Durable Agent Engine](https://github.com/codewithsupra/durable-agent-engine)** — An LLM agent runner that survives being killed mid-task.
-No Redis, no managed queue — Postgres `SKIP LOCKED` claims and reclaims work so nothing is silently lost. Proven with a chaos test that `kill -9`s workers on purpose, mid-run.
-`Node.js` `PostgreSQL` `WebSocket` `Docker`
-→ [source](https://github.com/codewithsupra/durable-agent-engine) (demo offline)
 
 **[Terrain](https://terrain-3oqc.onrender.com)** — How much does it actually cost an agent to work in your codebase? Terrain finds the static-analysis issues already sitting in a repo, hands a sample to a real coding agent one at a time in isolated git worktrees, verifies every fix mechanically, and reports the dollar/token/hour cost of fixing the rest — a number instead of an opinion.
 `TypeScript` `Git worktrees` `Static analysis`
 → [live](https://terrain-3oqc.onrender.com) · [source](https://github.com/codewithsupra/terrain)
 
-**[Relay](https://relay-multiplayer.onrender.com)** — Multiplayer AI agent sessions: one shared live workspace where anyone with the link watches the agent stream token by token, interrupts it mid-sentence, and takes or hands off control — closer to a live Google Doc than a solo chat window. An append-only, sequence-numbered event log makes a join an hour in replay exactly what everyone else already saw, with no gaps.
-`TypeScript` `WebSockets` `Event sourcing`
-→ [live](https://relay-multiplayer.onrender.com) · [source](https://github.com/codewithsupra/relay)
 
 **[AgentScrub](https://agentscrub.vercel.app)** — A scrubbable timeline for [Browser Use](https://github.com/browser-use/browser-use) agent runs: drag across a completed run like a video and see, at every step, the screenshot the agent looked at, the action it took, and the reasoning it gave — side by side, instead of buried in a flat log.
 `TypeScript` `Browser automation`
