@@ -18,22 +18,8 @@ Software Engineer Intern at **Mendix (Siemens)**, 2023
 
 <br>
 
-## Flagship — Lull
 
-**[Lull](https://lull-ai.vercel.app)** is a mental-health app built to a standard most side
-projects skip entirely: every health field is AES-256-GCM encrypted before it reaches the
-database, Postgres row-level security is enforced on every table, PII is stripped from
-anything an LLM sees or returns, and every AI call is routed through zero-data-retention
-providers only. The crisis-detection layer runs in English, Hindi and romanized Hinglish
-**simultaneously**, because a person in crisis doesn't code-switch to match the UI language —
-and it's verified with a red-team suite that runs 40+ adversarial prompts against the live
-model in CI, not just unit tests of the regex.
 
-`Next.js 16` `TypeScript` `Postgres RLS` `AES-256-GCM` `OpenRouter` `WebGL` `Web Audio` `i18n`
-
-→ [live](https://lull-ai.vercel.app) · [source](https://github.com/codewithsupra/lull)
-
-<br>
 
 ## Sponsorbound
 
